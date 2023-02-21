@@ -1,0 +1,35 @@
+.Rodape {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 .8rem;
+    width: 32rem;
+    height: 3.2rem;
+    box-sizing: border-box;
+    border: 2px solid #AD02FE;
+}
+
+.Rodape .texto-quantidade {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.Rodape .clear {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.2rem;
+    transition: ease-in-out 100ms;
+}
+
+.Rodape .clear:hover {
+    color: #E600FA;
+}
+
+.Rodape .clear:active {
+    text-shadow: 0 0 .8rem rgba(255, 255, 255, 0.6);
+}

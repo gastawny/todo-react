@@ -1,0 +1,63 @@
+.task {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.check {
+    -webkit-appearance: none;
+    margin: 0;
+    min-height: 2.6rem;
+    min-width: 2.6rem;
+    background-image: linear-gradient(to bottom right, #E600FA, #492F7D, #262840);
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    border: 3px solid #AB4DE9;
+    position: relative;
+    cursor: pointer;
+}
+
+.check:active,
+.check:checked:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.check:checked {
+    background-color: #e9ecee;
+    border: 3px solid #AB4DE9;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+    color: #99a1a7;
+}
+
+.check:checked:after {
+    content: '\2714';
+    font-size: 2.2rem;
+    position: absolute;
+    top: -4px;
+    left: 2px;
+    color: #FFF;
+
+}
+
+.Task .nameTask {
+    color: #BEBEC4;
+    font-size: 2rem;
+    font-family: 'Monda';
+    font-weight: 400;
+    position: relative;
+    display: inline;
+    padding: 0;
+    margin: .6rem 1.2rem;
+}
+
+.Task .nameTask.active {
+    color: #196376;
+    text-decoration: line-through 2.4px #92939D;
+}
+
+.Task .linha-horizontal {
+    width: 22.8rem;
+    border-bottom: 4px solid #2F2E3D;
+    margin: 0 auto;
+}

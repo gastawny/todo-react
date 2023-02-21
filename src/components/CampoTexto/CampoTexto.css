@@ -1,0 +1,50 @@
+.CampoTexto {
+    position: relative;
+    width: 32rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.CampoTexto .inputTask {
+    font-family: 'Monda';
+    color: #FFF;
+    border-radius: 1rem;
+    font-size: 2rem;
+    border: none;
+    background-color: #24273C;
+    width: 32rem;
+    height: 2.8rem;
+    padding: .4rem;
+    box-sizing: border-box;
+}
+
+.CampoTexto input:focus {
+    outline: none;
+    box-shadow: 0 0 .4rem rgba(255, 255, 255, 0.4);
+}
+
+.CampoTexto button {
+    position: absolute;
+    right: 0;
+    height: 2.8rem;
+    width: 4rem;
+    border-radius: 0 1rem 1rem 0;
+    border: none;
+    background-color: #45A935;
+    cursor: pointer;
+    transition: ease-in-out 100ms;
+}
+
+.CampoTexto button:hover {
+    background-color: #2a6321;
+}
+
+.CampoTexto button:active {
+    box-shadow: 0 0 .8rem rgba(255, 255, 255, 0.4);
+}
+
+.CampoTexto button .BsArrow90DegDown {
+    color: #FFF;
+    transform: scaleX(-1);
+    padding-left: .8rem;
+}

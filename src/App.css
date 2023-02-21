@@ -1,0 +1,16 @@
+.App {
+  background-color: #181824;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.App>h1 {
+  color: #FFF;
+  margin: 0;
+  font-family: 'Monda';
+  letter-spacing: .6rem;
+  padding-left: 3.8rem;
+  padding-top: .8rem;
+  font-size: 4rem;
+  font-weight: 400;
+}
